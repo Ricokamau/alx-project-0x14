@@ -72,6 +72,6 @@ In code, use try/catch around fetch calls, check `response.ok`, and parse error 
 - Use pagination (`page` and `limit`) to avoid large responses and stay under limits.
 - Cache responses client-side (e.g., with React state or libraries like SWR) to reduce API calls.
 - Handle errors gracefully with loading states and user feedback.
-- Filter queries precisely (e.g., by year/genre) for efficiency.
+- Filter queries precisely (e.g., by Year/Genre) for efficiency.
 - Monitor usage via RapidAPI dashboard to avoid overages.
 - For production, upgrade to a paid plan for reliability.
